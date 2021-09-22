@@ -25,6 +25,8 @@ public class CustomerService1 {
 	@Autowired
 	Environment env;
 
+	// this method is used to customer
+
 	public Long createCustomer(Customer customer) {
 
 		List<Address> addresses = new ArrayList<>();
@@ -57,6 +59,8 @@ public class CustomerService1 {
 		return addr;
 
 	}
+
+	//this method is used to update customer using billnumber
 
 	public Object updateCustomer(Customer customer, Long billingNumber) {
 
@@ -117,6 +121,8 @@ public class CustomerService1 {
 	 * 
 	 */
 
+	 // this method will get all the customer using billnumber
+
 	public Object getCustomer(Long billNumber) {
 
 		Optional<Customer> customer = customerRepository.findById(billNumber);
@@ -126,6 +132,7 @@ public class CustomerService1 {
 		} else
 			return HttpStatus.NOT_FOUND;
 	}
+	// this method will delete the customer using bill number
 
 	public HttpStatus deleteByBillNumber(Long billNumber) {
 		Optional<Customer> findById = customerRepository.findById(billNumber);
@@ -144,6 +151,8 @@ public class CustomerService1 {
 
 	}
 
+	// this method will delete the customer using phone number
+
 	public HttpStatus deleteByphoneNumber(Long phoneNumber) {
 
 		Optional<Customer> findByPhone = customerRepository.findByPhoneNumber(phoneNumber);
@@ -154,6 +163,7 @@ public class CustomerService1 {
 			return HttpStatus.NOT_FOUND;
 	}
 
+	// this method will find the customer using phone number
 	public Object findByPhoneNumber(Long phoneNumber) {
 
 		Optional<Customer> findByPhoneNumber = customerRepository.findByPhoneNumber(phoneNumber);
