@@ -1,0 +1,52 @@
+{"properties": [
+  {
+    "name": "cust.data.address.state.georgia",
+    "type": "java.lang.String",
+    "description": "A description for 'cust.data.address.state.georgia'"
+  },
+  {
+    "name": "cust.data.address.state.texas",
+    "type": "java.lang.String",
+    "description": "A description for 'cust.data.address.state.texas'"
+  },
+  {
+    "name": "cust.data.address.state.Illinois",
+    "type": "java.lang.String",
+    "description": "A description for 'cust.data.address.state.Illinois'"
+  },
+  {
+    "name": "cust.data.address.state.illinois",
+    "type": "java.lang.String",
+    "description": "A description for 'cust.data.address.state.illinois'"
+  },
+  {
+    "name": "state.georgia",
+    "type": "java.lang.String",
+    "description": "A description for 'state.georgia'"
+  },
+  {
+    "name": "state.texas",
+    "type": "java.lang.String",
+    "description": "A description for 'state.texas'"
+  },
+  {
+    "name": "state.illinois",
+    "type": "java.lang.String",
+    "description": "A description for 'state.illinois'"
+  },
+  {
+    "name": "georgia",
+    "type": "java.lang.String",
+    "description": "A description for 'georgia'"
+  },
+  {
+    "name": "texas",
+    "type": "java.lang.String",
+    "description": "A description for 'texas'"
+  },
+  {
+    "name": "illinois",
+    "type": "java.lang.String",
+    "description": "A description for 'illinois'"
+  }
+]}
